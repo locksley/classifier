@@ -105,9 +105,9 @@ class Bayes
 	# For example:
 	#     b.categories
 	#     =>   ['This', 'That', 'the_other']
-	def categories # :nodoc:
-		@categories.keys.collect {|c| c.to_s}
-	end
+	# def categories # :nodoc:
+	# 	@categories.keys.collect {|c| c.to_s}
+	# end
 	
 	#
 	# Allows you to add categories to the classifier.
