@@ -9,5 +9,5 @@ Gem::Specification.new do |gem|
   gem.files = [
     File.join("lib", "classifier.rb"),
   ]
-  gem.add_dependency("fast_stemmer", "~> 1.0.0")
+  gem.add_dependency("fast-stemmer", "~> 1.0.0")
 end
